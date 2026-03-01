@@ -10,11 +10,11 @@ body {
 p {  
   color: black;
   font-size: 40px;
-  text-align: center;
   font-family: "Merienda", cursive;
   font-optical-sizing: auto;
   font-weight: <weight>;
   font-style: normal;
+   text-align: center;
 }
 
 h1 {
@@ -39,19 +39,20 @@ h1 {
 h2 {
   color: black;
   font-size: 40px;
-  text-align: center;
   font-family: "Merienda", cursive;
   font-optical-sizing: auto;
   font-weight: <weight>;
   font-style: normal;
+  text-align: center;
 }
 
 h3 {
-font-family: "Merienda", cursive;
+  color: black;
+  font-size: 16px;
+  font-family: "Merienda", cursive;
   font-optical-sizing: auto;
   font-weight: <weight>;
   font-style: normal;
-  font-size: 16px;
   text-align: center;
 }
 
@@ -76,6 +77,11 @@ h3 a:hover {
   background-image: url(../img/clock.png);
   cursor: crosshair;
 }
+
+.btn-custom {
+    background-color: #ff6600; /* Orange background */
+    color: white;              /* Text color */
+    border: none;              /* Remove border */
 
 
 

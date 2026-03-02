@@ -1,6 +1,6 @@
 /* styles.css */
 body {
-  background-color:#DC2F02;
+  background-color:#FAA307;
   color: black;
   font-family: "Merienda", cursive;
   font-optical-sizing: auto;
@@ -79,19 +79,23 @@ h3 a:hover {
 }
 
 .background-Image {
-  background-image: url(../img/wrench.png);
-  width: 400px;
-  height: 400px;
-  margin: 64px auto;
+  background-image: url(../img/Whisper_model.jpg);
+  width: 129px;
+  height: 158px;
+  margin:  auto;
 }
 
 .background-Image:hover {
-  background-image: url(../img/clock.png);
+  background-image: url(../img/Whisper_Yawn.jpg);
+  width: 135px;
+  height: 128px;
+  margin: auto;
   cursor: crosshair;
 }
 
+
 .btn-custom {
-    background-color:#FAA307; /* Orange background */
+    background-color: #E85D04; /* Orange background */
     color: #370617;              /* Text color */
     border: none;              /* Remove border */
 
@@ -105,5 +109,7 @@ h3 a:hover {
       gap: 10px;
     }
 
-  
+.btn-custom:hover{
+background-color: #E85D04;
+}
 
